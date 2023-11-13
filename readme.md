@@ -70,3 +70,4 @@ Este repo tiene el objetivo de aprender a usar git y github
 >>>>>>> 15b8d18fd3e8e7708a9c267a7fd1edbe22d8fa67
 - adolfo
 >>>>>>> 0e32ea76700127b3c65262994aa58df17008f1c3
+- oscar
