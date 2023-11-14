@@ -1,13 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>hola estas en la pagina 2</h1>
-    <a href="../page1.html">volver</a>
-    <a href="/page1.html">volver</a>
-</body>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+            content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            body {
+                margin: 0 0 0 0;
+                padding: 0 0 0 0;
+
+            }
+
+
+
+            a {
+                color: blue;
+                font-size: 40px;
+
+            }
+        </style>
+        <style>
+            a.link {
+                color: green;
+                font-size: 60px;
+            }
+
+            [href] {
+                color: yellow;
+            }
+
+            a {
+                color: red;
+            }
+            main {
+                box-sizing: border-box;
+                width: 50vw;
+                background-color: blueviolet;
+                margin: 100px;
+                border: 50px solid black;
+                padding: 20px;
+
+            }
+        </style>
+    </head>
+
+    <body>
+        <main>
+
+            <a class="link"
+                href="../page1.html">volver</a>
+            <a href="/page1.html">volver</a>
+        </main>
+    </body>
+
 </html>

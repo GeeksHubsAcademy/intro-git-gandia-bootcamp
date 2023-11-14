@@ -1,16 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./style.css">
-</head>
-<body>
-    <h1 style="color:purple">hola mundo</h1>
-    <a class="link big" href="./folder/page2.html">ir a la pagina 2</a>
-    <a class="link" href="/folder/page2.html">ir a la pagina 2</a>
-    <h1 id="end asda">adios</h1>
-    <h2 id="end">end?</h2>
-</body>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+            content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet"
+            href="./style.css">
+        <style>
+
+            .link:hover {
+                color: red;
+            }
+
+            a {
+                display: block;
+            }
+
+            /* a:not(:last-child) {
+                font-size: 2rem;
+            } */
+
+            h1::first-letter {
+                color: tomato;
+            }
+
+            a:first-child {
+                color: blue;
+            }
+
+
+
+            ::selection {
+                background-color: purple;
+            }
+
+            a::selection {
+                background-color: red;
+            }
+
+
+            section strong {
+                background-color: beige;
+            }
+
+            em,
+            strong {
+                text-decoration: underline;
+            }
+            body {
+                font-size: 20px;
+            }
+
+            /* section {
+                font-size: 20px;
+            } */
+
+            section > strong {
+                font-size: 1.2em;
+            }
+
+
+            a {
+                font-size: 40px;
+            }
+            strong {
+                font-size: 1.5em;
+            }
+            .cube {
+                width: 50vw;
+                height: 50vh;
+                background-color: salmon;
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1 style="color:purple">¿Hhola mundo</h1>
+        <div>
+            <a class="link big"
+                href="./folder/page2.html">ir a la pagina 2</a>
+            <a class="link small"
+                href="/folder/page2.html">ir a la <strong class="red">pagina</strong> 2</a>
+            <a class="link"
+                href="././folder/page2.html?hola=adios">ir a la 2</a>
+        </div>
+
+        <h1 id="end asda">adios</h1>
+        <h2 id="end">end?</h2>
+        <section>
+            Lorem ipsum, <em>dolor sit amet consectetur </em>adipisicing elit.
+            <strong>Temporibus esse ad magnam quos </strong> obcaecati a, beatae tempora omnis eveniet aspernatur labore
+
+            <p>
+                <strong class="bold">minima aperiam</strong>, saepe sit fugiat vel illo ab cupiditate.
+            </p>
+            <div class="cube">
+                hola soy un cubo
+            </div>
+        </section>
+    </body>
+
 </html>
