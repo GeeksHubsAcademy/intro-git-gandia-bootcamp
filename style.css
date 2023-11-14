@@ -1,0 +1,15 @@
+h1 {
+    color: blue;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+#end {
+    color: red;
+}
+
+.link {
+    color: green;
+}
+.big {
+    font-size: 20px;
+}
