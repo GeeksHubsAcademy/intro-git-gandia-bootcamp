@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+            content="width=device-width, initial-scale=1.0">
+        <title>layout example</title>
+        <style>
+            .box {
+                display: inline-block;
+                width: 100px;
+                height: 100px;
+                background-color: red;
+                margin: 0;
+            }
+
+            .item2 {
+                background-color: blue;
+                position: sticky;
+                top: 40px;
+                right: 20px;
+            }
+
+            header {
+                background-color: yellow;
+                height: 100px;
+            }
+
+            section {
+                position: relative;
+                background-color: antiquewhite;
+                width: 70vw;
+                height: 100vh;
+            }
+
+            footer {
+                background-color: greenyellow;
+                height: 100px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <header>
+            <h1>header</h1>
+        </header>
+
+        <section>
+            <span class="box item1">item 1</span>
+            <span class="box item2">item 2</span>
+            <span class="box item3">item 3</span>
+            <span class="box item4">item 4</span>
+        </section>
+
+        <footer>
+            <h1>footer</h1>
+        </footer>
+
+
+    </body>
+
+</html>
