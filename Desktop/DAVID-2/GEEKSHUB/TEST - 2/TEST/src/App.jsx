@@ -1,7 +1,7 @@
 import { useState } from 'react'
-import NavBar from './components/NavBarHome'
 import './App.css'
 import { BrowserRouter } from "react-router-dom";
+import { Body } from './components/Router.jsx'
 
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
 
   return (
     <BrowserRouter>
-    <NavBar></NavBar>
+    <Body></Body>
     </BrowserRouter>
   )
 }

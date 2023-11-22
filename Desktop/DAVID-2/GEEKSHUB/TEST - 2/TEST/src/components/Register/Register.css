@@ -1,0 +1,22 @@
+.logo{
+    width: 9vw;
+}
+
+.register{
+    margin: 0 auto;
+    /* justify-content: center; */
+    text-align: center;
+    
+    /* display:table-cell;
+    vertical-align:middle; */
+}
+.outer-register{
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    display: flex;
+    height: 90vh;
+}
+
+/*RECORDAR LO DE UTILIZAR LO DE INHERIT PARA PONER BORDES A TODOS LOS DIVS.
+  RECORDAR TAMBIÉN LO DE TABLE CELL. Y LAS DOS FORMAS DE CENTRAR EL CONTENIDO DE UN DIV. QUE ES MARGIN AUTO Y NO SE QUE MAS (MIRAR LOS AUDIOS Y DIAPOSITIVAS)*/

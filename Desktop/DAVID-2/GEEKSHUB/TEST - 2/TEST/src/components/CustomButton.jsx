@@ -1,10 +1,10 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
 
-export default function ButtonNav({destination, name}) {
+export default function ButtonNav({className, destination, name}) {
 
-    const navigate = useNavigate
+    const navigate = useNavigate()
   return (
-    <div onClick={()=>navigate(destination)}>{name}</div>
+    <div className={className} onClick={()=>navigate(destination)}>{name}</div>
   )
 }

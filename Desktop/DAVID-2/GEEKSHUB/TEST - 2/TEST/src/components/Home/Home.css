@@ -1,0 +1,56 @@
+.navBarItem1{
+    display: inline-block;
+    
+
+}
+
+.navBarRight{
+    display: flex;
+
+}
+
+.navBarLeft{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 80vw;
+
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    /*align-items: space-evenly;*/
+
+}
+
+.navBarItemSignUp{
+    padding: 10px;
+    border-radius: 1em;
+    background-color: green;
+    height: 1.5em;
+    width: 6em;
+    text-align: center;
+    color: white;
+    margin-left: 10px;
+}
+
+.navBarItemLogIn{
+    padding: 9px;
+    border: 1px solid black;
+    /*box-sizing: border-box;*/
+    border-radius: 1em;
+    background-color: white;
+    height: 1.5em;
+    width: 6em;
+    text-align: center;
+    color: black;
+
+
+}
+.logo{
+    width: 9vw;
+}

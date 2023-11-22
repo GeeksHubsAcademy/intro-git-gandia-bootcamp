@@ -1,13 +1,13 @@
 import React from 'react'
 import CustomInput from './CustomInput.jsx'
 
-export default function NavBarHome() {
+export default function NavBar() {
 
 
   return (
     <nav>
       <div className="navBarLeft">
-        <img src="./upjob.png"></img>
+        <img src="./upjob.png" className="logo"></img>
         <div className="navBarItem1">Find Talent</div>
         <div className="navBarItem1">Find Work</div>
         <div className="navBarItem1">Why Upwork</div>
@@ -15,9 +15,6 @@ export default function NavBarHome() {
       </div>
 
       <div className="navBarRight">
-
-
-      <CustomInput className="navBarItem1" type="button" value="Log In"/>
       </div>
     </nav>
   )

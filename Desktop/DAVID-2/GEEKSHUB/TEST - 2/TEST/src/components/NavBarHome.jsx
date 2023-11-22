@@ -1,5 +1,6 @@
 import React from 'react'
-import CustomInput from './CustomInput.jsx'
+import './Home/Home.css'
+import CustomButton from './CustomButton.jsx'
 
 export default function NavBarHome() {
 
@@ -7,7 +8,7 @@ export default function NavBarHome() {
   return (
     <nav>
       <div className="navBarLeft">
-        <img src="./upjob.png"></img>
+        <img src="./upjob.png" className='logo'></img>
         <div className="navBarItem1">Find Talent</div>
         <div className="navBarItem1">Find Work</div>
         <div className="navBarItem1">Why Upwork</div>
@@ -17,7 +18,9 @@ export default function NavBarHome() {
       <div className="navBarRight">
 
 
-      <CustomInput className="navBarItem2" type="button" value="Log In"/>
+       <CustomButton className="navBarItemLogIn" destination= '/login' name="Login"/>
+
+      <CustomButton className="navBarItemSignUp" destination= '/register' name="Sign Up"/>
       </div>
     </nav>
   )
