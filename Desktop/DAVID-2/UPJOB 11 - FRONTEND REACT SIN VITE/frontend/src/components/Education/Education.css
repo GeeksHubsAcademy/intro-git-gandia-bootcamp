@@ -1,0 +1,43 @@
+.education-div{
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 50vw;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+
+}
+
+.continue-button{
+    padding: 10px;
+    border-radius: 30px ;
+    background-color: green;
+    margin-left: 10px;
+    border-color: green;
+    color: white;
+}
+
+.back-button{
+    padding: 10px;
+    border-radius: 30px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.educations{
+    margin-bottom: 20px;
+}
+
+.add-education-button{
+    padding: 10px;
+    border-radius: 30px ;
+    background-color: green;
+    border-color: green;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.buttonBox{
+    margin-top: 10px;
+}

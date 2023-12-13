@@ -1,0 +1,31 @@
+.add-language-button{
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 30px ;
+    background-color: green;
+    border-color: green;
+    color: white;
+}
+
+.continue-button{
+    padding: 10px;
+    border-radius: 30px ;
+    background-color: green;
+    margin-left: 10px;
+    border-color: green;
+    color: white;
+}
+
+.delete-button{
+    padding: 7px;
+    border-radius: 30px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.back-button{
+    padding: 10px;
+    border-radius: 30px;
+    background-color: white;
+    border: 1px solid black;
+}

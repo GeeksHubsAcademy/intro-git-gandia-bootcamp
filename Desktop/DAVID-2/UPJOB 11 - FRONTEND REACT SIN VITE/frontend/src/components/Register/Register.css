@@ -1,0 +1,44 @@
+.logo{
+    width: 9vw;
+}
+
+.register{
+    display: inline-block;
+    margin: 0 auto;
+    /* justify-content: center; */
+    text-align: center;
+    align-self: center; /* IMPORTANTE
+    
+    /* display:table-cell;
+    vertical-align:middle; */
+}
+.outer-register{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    height: 90vh;
+}
+
+/*RECORDAR LO DE UTILIZAR LO DE INHERIT PARA PONER BORDES A TODOS LOS DIVS.
+  RECORDAR TAMBIÉN LO DE TABLE CELL. Y LAS DOS FORMAS DE CENTRAR EL CONTENIDO DE UN DIV. QUE ES MARGIN AUTO Y NO SE QUE MAS (MIRAR LOS AUDIOS Y DIAPOSITIVAS)*
+   align-self: center; /* IMPORTANTE/ */
+
+.title{
+    font-weight: bold;
+}
+
+.emaildiv{
+    margin-bottom: 20px;
+}
+.passworddiv{
+    margin-bottom: 20px;
+}
+
+.inputError {
+    border: 0.2em solid red;
+}
+
+.msgError {
+    color: red;
+}

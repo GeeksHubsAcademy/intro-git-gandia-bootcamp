@@ -1,0 +1,41 @@
+.shown{
+    display: block;
+
+}
+
+.hidden{
+    display: none;
+
+}
+
+.blocker {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    content: ' ';
+    background: rgba(0,0,0,.5);
+}
+#popup .contents {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 700px;
+    height: 600px;
+    display: flex;
+    /*align-items: center;*/
+    justify-content: center;
+    background: #FFF;
+    position: fixed;
+    top: 50vh;
+    left: 50vw;
+    transform: translate(-50%, -50%);
+    overflow-y: scroll;
+}
+.popup-close {
+    position: absolute;
+    top: 5px;
+    right: 15px;
+    cursor: pointer;
+    font-size: 1.5rem;
+}

@@ -1,0 +1,11 @@
+.image-hidden{
+    display: none;
+    height: 30vh;
+    border-radius: 50%;
+}
+
+.image-visible{
+    display: block;
+    height: 30vh;
+    border-radius: 50%;
+}
