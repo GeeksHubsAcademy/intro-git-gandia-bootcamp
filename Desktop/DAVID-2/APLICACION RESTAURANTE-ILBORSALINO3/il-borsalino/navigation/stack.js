@@ -14,6 +14,8 @@ import TrabajosScreen from '../src/components/TrabajosScreen'
 import Carta from '../src/components/Carta'
 import { navOptions } from './options';
 import { useNavigation } from '@react-navigation/native';
+import Reserva from '../src/components/Reserva.jsx';
+
 
 
 
@@ -68,6 +70,15 @@ export const CartaStack = () => {
       <Stack.Screen name="Carta" component={Carta} />
     </Stack.Navigator>
   );
+}
+
+export const ReservaStack = () => {
+  const navigation = useNavigation()
+  return(
+    <Stack.Navigator initialRouteName="Reserva" screenOptions={()=>navOptions(navigation)}>
+      <Stack.Screen name="Reserva" component={Reserva} />
+    </Stack.Navigator>
+  )
 }
 
 export const TrabajarStack = () => {

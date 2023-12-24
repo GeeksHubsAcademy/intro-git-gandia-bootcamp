@@ -1,7 +1,10 @@
 import { DrawerItemList, createDrawerNavigator } from '@react-navigation/drawer';
-import { HomeStack, NovedadesStack, OfertasStack, LocalizacionStack, MiInfoStack, SorteosStack, TrabajarStack, CartaStack } from './stack';
+import { HomeStack, NovedadesStack, OfertasStack, LocalizacionStack, MiInfoStack, SorteosStack, TrabajarStack, CartaStack, ReservaStack } from './stack';
 import { View } from 'react-native';
 import { Image } from 'react-native';
+
+
+
 
 
 const Drawer = createDrawerNavigator();
@@ -30,6 +33,7 @@ export const MyDrawer = () =>{
             <Drawer.Screen name="Ofertas" component={OfertasStack} options={{title: 'Ofertas'}}/>
             <Drawer.Screen name="Sorteos-Drawer" component={SorteosStack} options={{title: 'Sorteos'}}/>
             <Drawer.Screen name="Carta-Drawer" component={CartaStack} options={{title: 'Carta'}}/>
+            <Drawer.Screen name="Reserva-Drawer" component={ReservaStack} options={{title: 'Reserva'}}/>
             <Drawer.Screen name="Localización" component={LocalizacionStack} options={{title: '¿Dónde estamos?'}}/>
             <Drawer.Screen name="Trabajo-Drawer" component={TrabajarStack} options={{title: 'Trabaja con nosotros'}}/>
             <Drawer.Screen name="Mi información" component={MiInfoStack} options={{title: 'Mi info'}}/>
